@@ -1,0 +1,79 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 15vh;
+  height: 70vh;
+  width: 50vh;
+  background-color: rgb(238, 184, 220);
+  border-color: black;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 10px 10px lightblue;
+}
+
+
+.content {
+  text-align: center;
+}
+
+.temperature-display {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 50%;
+  font-size: 5vh;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+
+
+}
+
+.hot {
+  background-color: rgb(226, 114, 114)
+}
+
+.neutral {
+  background-color: rgb(183, 234, 244);
+  color: black
+
+}
+
+.cold {
+  background-color: rgb(198, 198, 255);
+}
+
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button {
+  margin: auto;
+  background-color: gray;
+  color: white;
+  width: 7vh;
+  height: 7vh;
+  margin-top: 5vh;
+  font-size: 3vh;
+  border-radius: 50%;
+  border: none;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
